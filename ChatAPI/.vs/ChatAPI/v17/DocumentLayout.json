@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\chat-api\\ChatAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{480F4B5B-AFE8-4C96-BA47-7CB85FD8A6F9}|ChatAPI\\ChatAPI.csproj|c:\\dev\\chat-api\\chatapi\\chatapi\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480F4B5B-AFE8-4C96-BA47-7CB85FD8A6F9}|ChatAPI\\ChatAPI.csproj|solutionrelative:chatapi\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480F4B5B-AFE8-4C96-BA47-7CB85FD8A6F9}|ChatAPI\\ChatAPI.csproj|c:\\dev\\chat-api\\chatapi\\chatapi\\dbcontext\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480F4B5B-AFE8-4C96-BA47-7CB85FD8A6F9}|ChatAPI\\ChatAPI.csproj|solutionrelative:chatapi\\dbcontext\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480F4B5B-AFE8-4C96-BA47-7CB85FD8A6F9}|ChatAPI\\ChatAPI.csproj|c:\\dev\\chat-api\\chatapi\\chatapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480F4B5B-AFE8-4C96-BA47-7CB85FD8A6F9}|ChatAPI\\ChatAPI.csproj|solutionrelative:chatapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\dev\\chat-api\\ChatAPI\\ChatAPI\\Startup.cs",
+              "RelativeDocumentMoniker": "ChatAPI\\Startup.cs",
+              "ToolTip": "C:\\dev\\chat-api\\ChatAPI\\ChatAPI\\Startup.cs",
+              "RelativeToolTip": "ChatAPI\\Startup.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwDEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T08:19:57.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "C:\\dev\\chat-api\\ChatAPI\\ChatAPI\\DbContext\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "ChatAPI\\DbContext\\MongoDbContext.cs",
+              "ToolTip": "C:\\dev\\chat-api\\ChatAPI\\ChatAPI\\DbContext\\MongoDbContext.cs",
+              "RelativeToolTip": "ChatAPI\\DbContext\\MongoDbContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAswBgAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T07:52:17.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\dev\\chat-api\\ChatAPI\\ChatAPI\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "ChatAPI\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\dev\\chat-api\\ChatAPI\\ChatAPI\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "ChatAPI\\Hubs\\ChatHub.cs",
+              "ViewState": "AQIAAC4AAABAzMzMzMwuwD0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T07:52:01.529Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
