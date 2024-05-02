@@ -40,7 +40,6 @@ namespace ChatAPI.Repositories
         }
         public async Task SaveMessage(Message message)
         {
-            message.Timestamp = DateTime.UtcNow;
             await _messages.InsertOneAsync(message);
         }
     }

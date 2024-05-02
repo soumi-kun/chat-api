@@ -57,12 +57,13 @@ namespace ChatAPI
             {
                 SenderId =  senderConnection.Result.UserId,
                 ReceiverId = receiverConnection.Result.UserId,
-                Content = msg
-            };
+                Content = msg,
+                Timestamp = DateTime.UtcNow
+        };
             //saving message to db
             await _messageRepository.SaveMessage(message);
 
-            await Clients.Client(signalrId).SendAsync("sendMsgResponse", Context.ConnectionId, msg);
+            await Clients.Client(signalrId).SendAsync("sendMsgResponse", Context.ConnectionId, message.Content, message.Timestamp, message.SenderId);
         }
 
         public async Task GetOnlineUsers()
@@ -225,7 +226,9 @@ namespace ChatAPI
             var chatHistory = await _messageRepository.GetChatHistory(senderId, receiverId);
 
             //send chat history to the user
-            await Clients.Caller.SendAsync("ReceiveChatHistory", chatHistory.Select(msg => new { senderId = msg.SenderId, message = msg.Content }));
+            //await Clients.Caller.SendAsync("ReceiveChatHistory", chatHistory.Select(msg => new { senderId = msg.SenderId, message = msg.Content }));
+            await Clients.Caller.SendAsync("ReceiveChatHistory", chatHistory);
+
         }
 
         //creates a new group chat with the given name and adds the spefied users to the group
